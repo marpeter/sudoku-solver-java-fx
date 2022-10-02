@@ -1,0 +1,25 @@
+.game-grid {
+  -fx-border-style: solid;
+  -fx-border-width: 3;
+}
+
+.game-block {
+  -fx-border-style: solid;
+  -fx-border-width: 1;
+}
+
+.game-cell {
+  -fx-border-style: dashed;
+  -fx-border-width: 1;
+  -fx-border-color: grey;
+  -fx-font-size: 20;
+  -fx-text-fill: black;
+}
+
+.game-cell-solved {
+  -fx-border-style: dashed;
+  -fx-border-width: 1;
+  -fx-border-color: grey;
+  -fx-font-size: 20;
+  -fx-text-fill: red;
+}
