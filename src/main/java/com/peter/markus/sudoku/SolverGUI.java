@@ -87,7 +87,7 @@ public class SolverGUI extends Application {
     
  
     private Node createButtonArea() {
-        loadButton = new Button("Load Puzzle");
+        loadButton = new Button("Load Sudoku");
         loadButton.setAlignment(Pos.CENTER);
         loadButton.setOnAction(evt -> this.loadPuzzle());
         VBox setUpButtonArea = new VBox(5,loadButton);
@@ -95,7 +95,7 @@ public class SolverGUI extends Application {
         setUpButtonArea.setPadding(new Insets(5,5,10,5));
         HBox.setHgrow(setUpButtonArea, Priority.ALWAYS);
         
-        solveButton = new Button("Solve Puzzle");
+        solveButton = new Button("Solve Sudoku");
         solveButton.setAlignment(Pos.CENTER);
         solveButton.setOnAction(evt -> this.solveBruteForce());
         solveButton.setDisable(true);
