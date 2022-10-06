@@ -88,7 +88,7 @@ public class SolverGUI extends Application {
     
  
     private Node createButtonArea() {
-        loadButton = new Button("Load Sudoku");
+        loadButton = new Button("Load Puzzle");
         loadButton.setAlignment(Pos.CENTER);
         loadButton.setOnAction(evt -> this.loadPuzzle());
         VBox setUpButtonArea = new VBox(5,loadButton);
