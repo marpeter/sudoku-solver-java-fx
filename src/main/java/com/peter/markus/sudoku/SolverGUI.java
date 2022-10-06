@@ -41,7 +41,7 @@ public class SolverGUI extends Application {
         
         Scene scene = new Scene(frame, 600, 600);
         scene.getStylesheets().add("game.css");
-		stage.setTitle("Sudoku Solver");
+		stage.setTitle("Sudoku Puzzle Solver");
         stage.setScene(scene);
         stage.show();
         this.stage = stage;
