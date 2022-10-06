@@ -96,7 +96,7 @@ public class SolverGUI extends Application {
         setUpButtonArea.setPadding(new Insets(5,5,10,5));
         HBox.setHgrow(setUpButtonArea, Priority.ALWAYS);
         
-        solveButton = new Button("Solve Sudoku");
+        solveButton = new Button("Solve Puzzle");
         solveButton.setAlignment(Pos.CENTER);
         solveButton.setOnAction(evt -> this.solveBruteForce());
         solveButton.setDisable(true);
